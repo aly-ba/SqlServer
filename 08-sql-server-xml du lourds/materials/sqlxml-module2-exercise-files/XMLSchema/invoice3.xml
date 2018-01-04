@@ -1,0 +1,18 @@
+<inv:Invoice xmlns:inv="urn:www-company-com:invoices-v2"
+             xmlns:v1="urn:www-company-com:invoices" >
+   <inv:InvoiceID>1000</inv:InvoiceID>
+   <inv:InvoiceDate>2005-08-06Z</inv:InvoiceDate>
+   <inv:CustomerName>Jane Smith</inv:CustomerName>
+   <inv:LineItems>
+      <inv:LineItem>
+         <v1:Sku>134</v1:Sku>
+         <v1:Description>Cola</v1:Description>
+         <v1:Price>0.95</v1:Price>
+      </inv:LineItem>
+      <inv:LineItem>
+         <v1:Sku>285</v1:Sku>
+         <v1:Description>Drinking Straw</v1:Description>
+         <v1:Price>0.05</v1:Price>
+      </inv:LineItem>
+   </inv:LineItems>
+</inv:Invoice>

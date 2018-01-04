@@ -1,0 +1,69 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastOpenVersion>8.0.50215</LastOpenVersion>
+    <ReferencePath>
+    </ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSecurityZoneURL>
+    </DebugSecurityZoneURL>
+    <DebugSecurityZone>NoZone</DebugSecurityZone>
+    <EnableASPDebugging>false</EnableASPDebugging>
+    <EnableASPXDebugging>false</EnableASPXDebugging>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <RemoteDebugMachine>
+    </RemoteDebugMachine>
+    <StartAction>Project</StartAction>
+    <StartArguments>
+    </StartArguments>
+    <StartPage>
+    </StartPage>
+    <StartProgram>
+    </StartProgram>
+    <StartURL>
+    </StartURL>
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+    <StartWithIE>true</StartWithIE>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSecurityZoneURL>
+    </DebugSecurityZoneURL>
+    <DebugSecurityZone>NoZone</DebugSecurityZone>
+    <EnableASPDebugging>false</EnableASPDebugging>
+    <EnableASPXDebugging>false</EnableASPXDebugging>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <RemoteDebugMachine>
+    </RemoteDebugMachine>
+    <StartAction>Project</StartAction>
+    <StartArguments>
+    </StartArguments>
+    <StartPage>
+    </StartPage>
+    <StartProgram>
+    </StartProgram>
+    <StartURL>
+    </StartURL>
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+    <StartWithIE>false</StartWithIE>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectTrust>0</ProjectTrust>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{c252feb5-a946-4202-b1d4-9916a0590387}">
+        <DatabaseConnection Name="Data Source=.;Initial Catalog=pubs;Integrated Security=True" Provider="{91510608-8809-4020-8897-FBA057E22D54}" ConnectionString="01000000D08C9DDF0115D1118C7A00C04FC297EB01000000AD5007DC1693DC48B0B731B071CE07850000000002000000000003660000A80000001000000068916A29123A0EFF20C39A57F2FFA78E0000000004800000A00000001000000025CD812FC93D95AD2E8AD3907E7BDCB978000000806C4C573981BD69D127C79B8B06B7203D5BE7FAD897977E222DB8D541A760EE2BC90749CF8DF69C67731BD1BD5057E9A5E70DDDC2240655733F1453B971A6B1CCC0EEAC336ECCFFB2782B0816E72BB8C6A6D0690161D4F2B4834BE55056941638E1BE8F60DC1EDA1CC9C1C24F52CCA219E5290F73233F1614000000FB0420ED1D6213DF6CA131B11CD0EC06691329E5" />
+      </FlavorProperties>
+      <FlavorProperties GUID="{c252feb5-a946-4202-b1d4-9916a0590387}" Configuration="Debug|Any CPU">
+        <SQLProject DefaultDebugScript="debug.sql" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

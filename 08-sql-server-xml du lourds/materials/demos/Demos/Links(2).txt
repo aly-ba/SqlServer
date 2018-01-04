@@ -1,0 +1,2 @@
+--create big AdventureWorks tables
+http://sqlblog.com/blogs/adam_machanic/archive/2011/10/17/thinking-big-adventure.aspx

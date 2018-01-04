@@ -1,0 +1,45 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="null" priority="1" />
+      <Item value="int" priority="0" />
+      <Item value="SqlBooleanUsage" priority="0" />
+      <Item value="SqlBoolean" priority="2" />
+      <Item value="if" priority="2" />
+      <Item value="a" priority="0" />
+      <Item value="c" priority="1" />
+      <Item value="d" priority="0" />
+      <Item value="Console" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.SqlTypes.SqlBoolean">
+      <Item value="Null" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles />
+    <RecentEdits />
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

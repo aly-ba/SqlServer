@@ -1,0 +1,45 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="DD6F7068-6EE6-4F37-9EFB-FC72C3E7A4DF/f:Program.cs" caret="269" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="DD6F7068-6EE6-4F37-9EFB-FC72C3E7A4DF/f:Program.cs" caret="490" scrollPosition="0|0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="new" priority="0" />
+      <Item value="Decimal" priority="0" />
+      <Item value="MarshalSizeDecimal" priority="0" />
+      <Item value="Marshal" priority="0" />
+      <Item value="Console" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Runtime.InteropServices.Marshal">
+      <Item value="SizeOf" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

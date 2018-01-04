@@ -1,0 +1,16 @@
+SQL Management Studio - standard reports Done
+Activity Monitor - Done
+Performance Tuning Dashboard - Done
+SQL Server Error Logs - Done
+SQL Server Best Practices Analyzer - Done
+Database Tuning Advisor - Done
+PerfMon - Done
+PAL - Done
+SQL Space Map - Done
+SQL Server Profiler - Done
+Extended Events - Done
+Wait Stats - Done
+DMV - Done
+Signal and Resource Waits - Done
+SQLDiag - Done
+

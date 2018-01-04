@@ -1,0 +1,21 @@
+/*
+T-SQL Window Functions Class
+Module 8
+Demo 4
+*/
+USE PL_SampleData;
+GO
+SET STATISTICS IO ON;
+GO
+
+
+SELECT StudentID, Grade, 
+	FORMAT(PERCENT_RANK() OVER(ORDER BY Grade),'P') AS PercentRank,
+	FORMAT(CUME_DIST() OVER(ORDER BY Grade),'P') AS CumeDist
+FROM grades;
+
+
+SELECT Grade, 
+	PERCENTILE_DISC(0.9) WITHIN GROUP(ORDER BY GRADE) OVER() AS GradeAt90D,
+	PERCENTILE_CONT(0.9) WITHIN GROUP(ORDER BY GRADE) OVER() AS GradeAt90C
+FROM Grades;

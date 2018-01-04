@@ -1,0 +1,39 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3DE857C7-C5C2-465C-B90F-E3DA2674D78A/d:Test Scripts/f:Test1.sql" caret="39" scrollPosition="0|0" />
+      <File id="3DE857C7-C5C2-465C-B90F-E3DA2674D78A/f:Sub2.cs" caret="332" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3DE857C7-C5C2-465C-B90F-E3DA2674D78A/f:Sub2.cs" caret="373" scrollPosition="0|0" />
+      <File id="3DE857C7-C5C2-465C-B90F-E3DA2674D78A/d:Test Scripts/f:Test1.sql" caret="4" scrollPosition="0|0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="float" priority="1" />
+      <Item value="minuend" priority="0" />
+      <Item value="subtrahend" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

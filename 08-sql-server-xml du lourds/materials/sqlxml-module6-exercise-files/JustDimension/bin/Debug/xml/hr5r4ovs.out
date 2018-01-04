@@ -1,0 +1,8 @@
+﻿C:\Dan Docs\NewSql2005Book\(05)UDT\samples\Dimension\bin\Debug> "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\csc.exe" /t:library /utf8output /R:"C:\WINDOWS\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll" /R:"C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll" /R:"C:\WINDOWS\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll" /R:"C:\Dan Docs\NewSql2005Book\(05)UDT\samples\Dimension\bin\Debug\dimension.dll" /out:"xml\Dimension.XmlSerializers.dll" /debug- /optimize+ /nostdlib /D:_DYNAMIC_XMLSERIALIZER_COMPILATION  "xml\hr5r4ovs.0.cs"
+
+
+Microsoft (R) Visual C# 2005 Compiler version 8.00.50727.42
+for Microsoft (R) Windows (R) 2005 Framework version 2.0.50727
+Copyright (C) Microsoft Corporation 2001-2005. All rights reserved.
+
+c:\Dan Docs\NewSql2005Book\(05)UDT\samples\Dimension\bin\Debug\xml\hr5r4ovs.0.cs(131,18): warning CS0219: The variable 'isNull' is assigned but its value is never used

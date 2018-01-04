@@ -1,0 +1,63 @@
+--Demo Module 4
+USE AdventureWorks2014;
+GO
+
+IF OBJECT_ID('ProductsPage') IS NOT NULL DROP TABLE ProductsPage;
+
+--Create a table that is a subset of the Production.Product table
+SELECT ProductID, Name, ProductNumber, Color, Size
+INTO ProductsPage
+FROM Production.Product
+WHERE Color IS NOT NULL;
+
+--Add a compressed clustered index
+CREATE CLUSTERED INDEX CI_Products ON ProductsPage 
+(Name) WITH(DATA_COMPRESSION = PAGE);
+
+--Take a look at rows 60-69 and 73
+SELECT * FROM ProductsPage;
+
+DBCC TRACEON(3604);
+--Find the page number
+DBCC IND('AdventureWorks2014','ProductsPage',1);
+--Look at the page
+DBCC PAGE('AdventureWorks2014',1,484080,3);
+
+USE CompressionTest;
+GO
+SELECT * FROM Ints;
+
+--View page compression attempts
+SELECT page_compression_attempt_count
+	, page_compression_success_count 
+	, page_compression_attempt_count - page_compression_success_count AS page_compression_failure_count
+FROM sys.dm_db_index_operational_stats(db_id(),object_id('ints'),NULL,NULL);
+
+--Create extended events session 
+CREATE EVENT SESSION [Compression] ON SERVER 
+ADD EVENT sqlserver.page_compression_attempt_failed
+ADD TARGET package0.ring_buffer
+WITH (STARTUP_STATE=OFF)
+GO
+ALTER EVENT SESSION [Compression] ON SERVER 
+STATE = START;
+
+
+--Page compress the table 
+ALTER TABLE Ints REBUILD WITH(DATA_COMPRESSION = PAGE);
+
+
+
+--View page compression attempts
+SELECT page_compression_attempt_count
+	, page_compression_success_count 
+	, page_compression_attempt_count - page_compression_success_count AS page_compression_failure_count
+FROM sys.dm_db_index_operational_stats(db_id(),object_id('ints'),NULL,NULL);
+
+
+--View extended events info
+
+
+
+
+ 

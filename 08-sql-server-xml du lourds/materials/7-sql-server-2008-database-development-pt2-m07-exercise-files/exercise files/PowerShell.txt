@@ -1,0 +1,10 @@
+Installing Poweshell
+
+Starting Powershell
+
+Some of the commands
+
+
+set-location sqlserver:\sql\win08-sql08
+Invoke-Sqlcmd "SELECT DB_NAME() AS DatabaseName;"
+invoke-sqlcmd "select * from veronicas.sales.customers where customernumber = '3';"

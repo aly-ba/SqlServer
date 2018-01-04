@@ -1,0 +1,9 @@
+This demo was executed using SQL Server 2012 (11.0.2383) Developer Edition.  
+The Credit database can be installed from http://bit.ly/SBJGiO
+All demos assume a TEST environment - not a production environment.
+Any file path references in the "CMD" files will need to be modified to reflect your environment.
+
+The following was executed to generate the demo symptoms:
+1) A slow I/O disk was used for this specific demo, to reproduce a slow I/O path issue
+2) Execute "Module 3 - Inadequate IO Path.cmd" to generate workload
+3) Open and step through "Module 3 - Inadequate IO Paths.sql" to evaluate symptoms

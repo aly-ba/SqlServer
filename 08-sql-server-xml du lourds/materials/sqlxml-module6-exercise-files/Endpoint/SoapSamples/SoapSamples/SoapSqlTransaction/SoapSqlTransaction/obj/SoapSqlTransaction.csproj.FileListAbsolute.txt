@@ -1,0 +1,3 @@
+C:\Scripts\Scripts-XML\SoapSamples\SoapSamples\SoapSqlTransaction\SoapSqlTransaction\bin\Debug\SoapSqlTransaction.exe.config
+C:\Scripts\Scripts-XML\SoapSamples\SoapSamples\SoapSqlTransaction\SoapSqlTransaction\obj\Debug\SoapSqlTransaction.exe
+C:\Scripts\Scripts-XML\SoapSamples\SoapSamples\SoapSqlTransaction\SoapSqlTransaction\obj\Debug\SoapSqlTransaction.pdb

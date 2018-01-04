@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerimiterLimit", "PerimiterLimit\PerimiterLimit.csproj", "{2D40ED43-7B19-41A4-8E9D-46C6A47E425B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D40ED43-7B19-41A4-8E9D-46C6A47E425B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D40ED43-7B19-41A4-8E9D-46C6A47E425B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D40ED43-7B19-41A4-8E9D-46C6A47E425B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2D40ED43-7B19-41A4-8E9D-46C6A47E425B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D40ED43-7B19-41A4-8E9D-46C6A47E425B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D40ED43-7B19-41A4-8E9D-46C6A47E425B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+<people>
+ <person>
+  <name>
+   <givenName>Martin</givenName>
+   <familyName>Gudgin</familyName>
+  </name>
+  <age>33</age>
+  <height>short</height>
+ </person>
+ <person>
+  <name>
+   <givenName>Simon</givenName>
+   <familyName>Horrell</familyName>
+  </name>
+  <age>40</age>
+  <height>short</height>
+ </person>
+ <person>
+  <name>
+   <givenName>Mark</givenName>
+   <familyName>Szolkowski</familyName>
+  </name>
+  <age>30</age>
+  <height>medium</height>
+ </person>
+</people>

@@ -1,0 +1,3 @@
+.\bin\Debug\SoapSqlTransaction.exe.config
+obj\Debug\SoapSqlTransaction.exe
+obj\Debug\SoapSqlTransaction.pdb

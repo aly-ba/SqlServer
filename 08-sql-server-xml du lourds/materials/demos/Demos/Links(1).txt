@@ -1,0 +1,11 @@
+Data Compression: Strategy, Capacity Planning and Best Practices
+https://technet.microsoft.com/en-us/library/dd894051(v=sql.100).aspx
+
+How Row Compression Affects Data Types
+https://docs.microsoft.com/en-us/sql/relational-databases/data-compression/row-compression-implementation
+
+Microsoft SQL Server 2012 Internals 
+https://www.amazon.com/Microsoft-Server-Internals-Developer-Reference/dp/0735658560/ref=mt_paperback?_encoding=UTF8&me=
+
+
+

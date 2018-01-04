@@ -1,0 +1,58 @@
+﻿<deadlock-list>
+  <deadlock victim="process1f970b868">
+    <process-list>
+      <process id="process1f970b868" taskpriority="0" logused="0" waitresource="KEY: 9:72057594039107584 (1a39e6095155)" waittime="219" ownerId="1431980" transactionname="SELECT" lasttranstarted="2012-10-10T17:54:35.727" XDES="0x1f0879880" lockMode="S" schedulerid="2" kpid="2196" status="suspended" spid="57" sbid="0" ecid="0" priority="0" trancount="0" lastbatchstarted="2012-10-10T17:54:35.717" lastbatchcompleted="2012-10-10T17:54:35.717" lastattention="1900-01-01T00:00:00.717" clientapp="Microsoft SQL Server Management Studio - Query" hostname="PS-SQL2K12" hostpid="1044" loginname="SQLSKILLSDEMOS\administrator" isolationlevel="read committed (2)" xactid="1431980" currentdb="9" lockTimeout="4294967295" clientoption1="673187936" clientoption2="390200">
+        <executionStack>
+          <frame procname="DeadlockDemo.dbo.BookmarkLookupSelect" line="10" stmtstart="394" stmtend="622" sqlhandle="0x030009002255970f1f142701e6a0000001000000000000000000000000000000000000000000000000000000">
+SELECT @out1 = [col2], @out2 = [col3] 
+	FROM [BookmarkLookupDeadlock] 
+	WHERE [col2] BETWEEN @col2 AND @col2+1;     </frame>
+          <frame procname="adhoc" line="4" stmtstart="82" stmtend="144" sqlhandle="0x020000002b962c18e02b829d38a200384474889742cbc9e60000000000000000000000000000000000000000">
+EXEC [BookmarkLookupSelect] 4;     </frame>
+        </executionStack>
+        <inputbuf>
+SET NOCOUNT ON
+WHILE (1=1) 
+BEGIN
+    EXEC [BookmarkLookupSelect] 4;
+END
+    </inputbuf>
+      </process>
+      <process id="process1f5a14558" taskpriority="0" logused="252" waitresource="KEY: 9:72057594039173120 (e5b3d7e750dd)" waittime="219" ownerId="1431981" transactionname="UPDATE" lasttranstarted="2012-10-10T17:54:35.733" XDES="0x1f8a283a8" lockMode="X" schedulerid="1" kpid="1804" status="suspended" spid="56" sbid="0" ecid="0" priority="0" trancount="2" lastbatchstarted="2012-10-10T17:54:32.373" lastbatchcompleted="2012-10-10T17:54:32.373" lastattention="1900-01-01T00:00:00.373" clientapp="Microsoft SQL Server Management Studio - Query" hostname="PS-SQL2K12" hostpid="1044" loginname="SQLSKILLSDEMOS\administrator" isolationlevel="read committed (2)" xactid="1431981" currentdb="9" lockTimeout="4294967295" clientoption1="673187936" clientoption2="390200">
+        <executionStack>
+          <frame procname="DeadlockDemo.dbo.BookmarkLookupUpdate" line="7" stmtstart="220" stmtend="396" sqlhandle="0x030009005b798b1021142701e6a0000001000000000000000000000000000000000000000000000000000000">
+UPDATE [BookmarkLookupDeadlock] 
+	SET [col2] = [col2]+1 
+	WHERE [col1] = @col2;     </frame>
+          <frame procname="adhoc" line="4" stmtstart="82" stmtend="144" sqlhandle="0x020000009578bf2045b03696f203a8c226a1a0942f95b3850000000000000000000000000000000000000000">
+EXEC [BookmarkLookupUpdate] 4;     </frame>
+        </executionStack>
+        <inputbuf>
+SET NOCOUNT ON
+WHILE (1=1) 
+BEGIN
+    EXEC [BookmarkLookupUpdate] 4;
+END
+    </inputbuf>
+      </process>
+    </process-list>
+    <resource-list>
+      <keylock hobtid="72057594039107584" dbid="9" objectname="DeadlockDemo.dbo.BookmarkLookupDeadlock" indexname="1" id="lock1f0446400" mode="X" associatedObjectId="72057594039107584">
+        <owner-list>
+          <owner id="process1f5a14558" mode="X" />
+        </owner-list>
+        <waiter-list>
+          <waiter id="process1f970b868" mode="S" requestType="wait" />
+        </waiter-list>
+      </keylock>
+      <keylock hobtid="72057594039173120" dbid="9" objectname="DeadlockDemo.dbo.BookmarkLookupDeadlock" indexname="2" id="lock1f0465800" mode="S" associatedObjectId="72057594039173120">
+        <owner-list>
+          <owner id="process1f970b868" mode="S" />
+        </owner-list>
+        <waiter-list>
+          <waiter id="process1f5a14558" mode="X" requestType="wait" />
+        </waiter-list>
+      </keylock>
+    </resource-list>
+  </deadlock>
+</deadlock-list>

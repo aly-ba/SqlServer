@@ -1,0 +1,40 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+     	    xmlns:tns="urn:www-company-com:invoices"
+            targetNamespace="urn:www-company-com:invoices"
+            elementFormDefault="qualified">
+
+  <!-- named typedefs and element decls -->
+  <xsd:simpleType name="skuType">
+    <xsd:restriction base="xsd:integer" >
+      <xsd:minInclusive value="100" />
+      <xsd:maxInclusive value="999" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:complexType name="LineItem">
+    <xsd:sequence>
+      <xsd:element name="Sku" type="tns:skuType"/>
+      <xsd:element name="Description" type="xsd:string"/>
+      <xsd:element name="Price" type="xsd:double"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  
+  <xsd:complexType name="LineItems">
+    <xsd:sequence>
+      <xsd:element name="LineItem" type="tns:LineItem" />
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="Invoice">
+    <xsd:sequence>
+      <xsd:element name="InvoiceID" type="xsd:string"/>
+      <xsd:element name="CustomerName" type="xsd:string"/>
+      <xsd:element name="LineItems" type="tns:LineItems"/>
+    </xsd:sequence>
+  </xsd:complexType>  
+
+  <xsd:element name="Invoice" type="tns:Invoice"/>
+
+</xsd:schema>
+
+

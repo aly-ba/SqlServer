@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateRegisterReceipts", "GenerateRegisterReceipts\GenerateRegisterReceipts.csproj", "{0A214978-82AF-4E4A-A7C1-81D8E59B8A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateStores", "GenerateStores\GenerateStores.csproj", "{DBBF06B5-B456-405B-947F-C931D42F54D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A214978-82AF-4E4A-A7C1-81D8E59B8A6E}.Debug|x86.ActiveCfg = Debug|x86
+		{0A214978-82AF-4E4A-A7C1-81D8E59B8A6E}.Debug|x86.Build.0 = Debug|x86
+		{0A214978-82AF-4E4A-A7C1-81D8E59B8A6E}.Release|x86.ActiveCfg = Release|x86
+		{0A214978-82AF-4E4A-A7C1-81D8E59B8A6E}.Release|x86.Build.0 = Release|x86
+		{DBBF06B5-B456-405B-947F-C931D42F54D5}.Debug|x86.ActiveCfg = Debug|x86
+		{DBBF06B5-B456-405B-947F-C931D42F54D5}.Debug|x86.Build.0 = Debug|x86
+		{DBBF06B5-B456-405B-947F-C931D42F54D5}.Release|x86.ActiveCfg = Release|x86
+		{DBBF06B5-B456-405B-947F-C931D42F54D5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

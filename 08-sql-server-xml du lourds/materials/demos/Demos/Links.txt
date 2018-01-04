@@ -1,0 +1,13 @@
+The AdventureWorks2014 and AdventureWorksDW2014 databases can be found here:
+https://msftdbprodsamples.codeplex.com/releases/view/125550
+
+Note that Microsoft is retireing CodePlex in late 2017 and the location will change at that time.
+
+Wide World Importers
+https://github.com/Microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0
+
+Adam Machanic's Thinking Big Adventure
+http://sqlblog.com/blogs/adam_machanic/archive/2011/10/17/thinking-big-adventure.aspx
+
+Data Compression: Strategy, Capacity Planning and Best Practices
+https://technet.microsoft.com/en-us/library/dd894051(v=sql.100).aspx

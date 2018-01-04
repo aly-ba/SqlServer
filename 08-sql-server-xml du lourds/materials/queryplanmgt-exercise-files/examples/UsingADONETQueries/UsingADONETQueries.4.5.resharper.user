@@ -1,0 +1,51 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="D6162D51-C5EA-4AFD-B6E6-866AF122A1E7/f:Program.cs" caret="506" fromTop="13" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="D6162D51-C5EA-4AFD-B6E6-866AF122A1E7/f:Program.cs" caret="0" fromTop="0" />
+      <File id="D6162D51-C5EA-4AFD-B6E6-866AF122A1E7/f:Program.cs" caret="359" fromTop="9" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="2" />
+      <Item value="System" priority="0" />
+      <Item value="Data" priority="0" />
+      <Item value="var" priority="2" />
+      <Item value="new" priority="1" />
+      <Item value="SqlCommand" priority="0" />
+      <Item value="conn" priority="0" />
+      <Item value="cmd" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlConnection">
+      <Item value="Open" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlCommand">
+      <Item value="EndExecuteReader" priority="0" />
+      <Item value="ExecuteReader" priority="0" />
+      <Item value="Parameters" priority="0" />
+      <Item value="CommandText" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlParameterCollection">
+      <Item value="AddWithValue" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

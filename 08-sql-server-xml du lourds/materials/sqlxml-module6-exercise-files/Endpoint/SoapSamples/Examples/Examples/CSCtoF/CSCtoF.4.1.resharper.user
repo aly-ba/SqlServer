@@ -1,0 +1,49 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3ACD7677-5E2B-40B3-B5E8-57E1E481A4A3/f:CSCtoF.cs" caret="354" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3ACD7677-5E2B-40B3-B5E8-57E1E481A4A3/f:CSCtoF.cs" caret="177" scrollPosition="0|0" />
+      <File id="3ACD7677-5E2B-40B3-B5E8-57E1E481A4A3/f:CSCtoF.cs" caret="346" scrollPosition="0|0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="double" priority="1" />
+      <Item value="f_temp" priority="0" />
+      <Item value="var" priority="0" />
+      <Item value="new" priority="1" />
+      <Item value="Random" priority="0" />
+      <Item value="r" priority="0" />
+      <Item value="Math" priority="0" />
+      <Item value="static" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Max" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

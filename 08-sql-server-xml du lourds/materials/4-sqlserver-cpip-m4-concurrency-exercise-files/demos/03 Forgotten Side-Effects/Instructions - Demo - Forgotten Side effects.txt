@@ -1,0 +1,7 @@
+This demo was executed using SQL Server 2012 (11.0.2383) Developer Edition.  
+The Credit database can be installed from http://bit.ly/SBJGiO
+All demos assume a TEST environment - not a production environment.
+Any file path references in the "CMD" files will need to be modified to reflect your environment.
+
+Steps:
+1) Step through "Module 4 - Forgotten Side-effects.sql"

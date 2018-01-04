@@ -1,0 +1,8 @@
+start /b sqlcmd /E /S. /dCredit /i"C:\Users\JosephSack\Desktop\Demos\Module 7 - Observer Overhead - A.sql"
+start /b sqlcmd /E /S. /dCredit /i"C:\Users\JosephSack\Desktop\Demos\Module 7 - Observer Overhead - A.sql"
+start /b sqlcmd /E /S. /dCredit /i"C:\Users\JosephSack\Desktop\Demos\Module 7 - Observer Overhead - A.sql"
+start /b sqlcmd /E /S. /dCredit /i"C:\Users\JosephSack\Desktop\Demos\Module 7 - Observer Overhead - A.sql"
+start /b sqlcmd /E /S. /dCredit /i"C:\Users\JosephSack\Desktop\Demos\Module 7 - Observer Overhead - A.sql"
+start /b sqlcmd /E /S. /dCredit /i"C:\Users\JosephSack\Desktop\Demos\Module 7 - Observer Overhead - A.sql"
+start /b sqlcmd /E /S. /dCredit /i"C:\Users\JosephSack\Desktop\Demos\Module 7 - Observer Overhead - A.sql"
+start /b sqlcmd /E /S. /dCredit /i"C:\Users\JosephSack\Desktop\Demos\Module 7 - Observer Overhead - A.sql"
