@@ -1,0 +1,1 @@
+start /b sqlcmd /E /S"SQL2k12-svr1" /dCredit /i"1 - Replication Activity.sql"
